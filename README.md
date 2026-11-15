@@ -31,9 +31,10 @@ TGLDmic boots Intel's signed SOF firmware on that DSP and exposes the mics to ma
 | | |
 |---|---|
 | Supported (Alder Lake) | Intel Smart Sound DSP `8086:51CC`: Alder Lake **LP / P / U** (12th-gen Core, e.g. **HP Envy x360 13-bf0xxx** i7-1250U)<br>Intel Smart Sound DSP `8086:51C8`: Alder Lake-P (OpenCore spoof ID)<br>Intel Smart Sound DSP `8086:51C9`: Alder Lake-M<br>Intel Smart Sound DSP `8086:51CD`: Alder Lake-S |
+| Supported (Raptor Lake) | Intel Smart Sound DSP `8086:51CA` / `8086:51CB`: Raptor Lake-P (13th-gen Core, e.g. **Samsung Galaxy Book3 Ultra** i9-13900H). Same Intel-signed SOF image as Alder Lake (`sof-adl.ri`) |
 | Supported (Comet Lake / CFL) | Intel Smart Sound DSP `8086:02C8`: Comet Lake **LP** (10th-gen Core, e.g. **Lenovo ThinkPad X1 Carbon Gen 7** i7-10710U / i5-10210U)<br>Intel Smart Sound DSP `8086:9DC8`: Cannon Lake / Whiskey Lake **LP** (e.g. ThinkPad X1 Carbon Gen 7 i7-8565U)<br>Intel Smart Sound DSP `8086:06C8`, `8086:A348`: Comet Lake-H, Coffee Lake-H |
 | Supported (Tiger Lake) | Intel Smart Sound DSP `8086:A0C8`: Tiger Lake **LP** (11th-gen Core, UP3/UP4)<br>Intel Smart Sound DSP `8086:43C8`: Tiger Lake **H** |
-| Tested hardware | **HP Envy x360 13-bf0xxx** (Alder Lake-P i7-1250U, dual PDM mics, ALC245 + dual CS35L41)<br>**Lenovo ThinkPad X1 Carbon Gen 7** (Comet Lake i7-10710U, 4 PDM mics, ALC285)<br>**HP EliteBook 840 G8** (Tiger Lake i5-1135G7, 4 PDM mics, ALC285) |
+| Tested hardware | **HP Envy x360 13-bf0xxx** (Alder Lake-P i7-1250U, dual PDM mics, ALC245 + dual CS35L41)<br>**Lenovo ThinkPad X1 Carbon Gen 7** (Comet Lake i7-10710U, 4 PDM mics, ALC285)<br>**HP EliteBook 840 G8** (Tiger Lake i5-1135G7, 4 PDM mics, ALC285) |<br>**Samsung Galaxy Book3 Ultra NP964XFH** (Raptor Lake-P i9-13900H, 2 PDM mics, ALC298, macOS Tahoe 26.7.3)
 | macOS | Ventura, Sonoma, Sequoia, Tahoe tested / supported |
 | Audio driver | Works next to **AppleALC/AppleHDA** or **HDAUniversal** (speakers and headset stay with them) |
 
