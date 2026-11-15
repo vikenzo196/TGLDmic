@@ -123,6 +123,8 @@ IOService *TGLDmic::probe(IOService *provider, SInt32 *score) {
         case 0x51CC: // Alder Lake-P/U Smart Sound DSP (native)
         case 0x51C9: // Alder Lake-M
         case 0x51CD: // Alder Lake-S
+        case 0x51CA: // Raptor Lake-P Smart Sound DSP (same Intel-signed SOF image as ADL)
+        case 0x51CB: // Raptor Lake-P
             platformFamily = kPlatformAlderLake;
             break;
 
